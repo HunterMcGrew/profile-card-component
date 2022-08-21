@@ -1,0 +1,123 @@
+/* start of my code */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --darkCyan: hsl(185, 75%, 39%);
+    --darkBlue: hsl(229, 23%, 23%);
+    --grayishBlue: hsl(227, 10%, 46%);
+    --darkGray: hsl(0, 0%, 59%);
+
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: var(--darkCyan);
+    overflow: hidden;
+}
+
+.profileCard {
+    width: 325px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.cardHeader {
+    background-image: url("../images/bg-pattern-card.svg");
+    height: 140px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.avatar {
+    position: relative;
+    top: 85px;
+    text-align: center;
+}
+
+.avatar img {
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
+.profileInfo {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.location {
+    margin: 10px 0px 50px 0px;
+    opacity: .7;
+    font-size: 15px;
+}
+
+.name {
+    display: inline;
+    font-weight: 700;
+    font-size: 18px;
+} 
+
+.age {
+    display: inline;
+    opacity: .7;
+    font-size: 18px;
+}
+
+.statsContainer {
+    padding: 0;
+    margin: 0 auto;
+    width: 85%;
+    height: 70px;
+}
+
+.followers, .likes, .photos {
+    text-align: center;
+}
+
+.followersCount, .likesCount, .photoCount {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.followersTxt, .likesTxt, .photoTxt {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: .7;
+}
+
+.bg-top {
+    position: absolute;
+    top: -90%;
+    right: 60%;
+    background-image: url(../images/bg-pattern-top.svg);
+    height: 978px;
+    width: 978px;
+    z-index: -1;
+}
+
+.bg-bottom {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    background-image: url(../images/bg-pattern-bottom.svg);
+    height: 978px;
+    width: 978px;
+    z-index: -1;
+}
+
+
+/* From the challenge */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
