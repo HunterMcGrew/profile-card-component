@@ -23,7 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![image]()
+![image](https://github.com/HunterMcGrew/profile-card-component/blob/main/assets/images/screenshot.PNG?raw=true)
 
 ### Links
 
