@@ -92,9 +92,9 @@ body {
 }
 
 .bg-top {
-    position: absolute;
+    position: fixed;
     top: -90%;
-    right: 60%;
+    right: 50%;
     background-image: url(../images/bg-pattern-top.svg);
     height: 978px;
     width: 978px;
@@ -102,9 +102,9 @@ body {
 }
 
 .bg-bottom {
-    position: absolute;
+    position: fixed;
     top: 50%;
-    left: 60%;
+    left: 40%;
     background-image: url(../images/bg-pattern-bottom.svg);
     height: 978px;
     width: 978px;
