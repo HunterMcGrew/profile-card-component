@@ -7,7 +7,6 @@
     --darkBlue: hsl(229, 23%, 23%);
     --grayishBlue: hsl(227, 10%, 46%);
     --darkGray: hsl(0, 0%, 59%);
-
 }
 
 body {
@@ -17,7 +16,6 @@ body {
     display: flex;
     align-items: center;
     background-color: var(--darkCyan);
-    overflow: hidden;
 }
 
 .profileCard {
@@ -46,12 +44,12 @@ body {
 }
 
 .profileInfo {
-    margin-top: 80px;
+    margin-top: 70px;
     text-align: center;
 }
 
 .location {
-    margin: 10px 0px 50px 0px;
+    margin: 5px 0px 20px 0px;
     opacity: .7;
     font-size: 15px;
 }
@@ -66,6 +64,13 @@ body {
     display: inline;
     opacity: .7;
     font-size: 18px;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    opacity: .1;
+    height: 1px;
 }
 
 .statsContainer {
